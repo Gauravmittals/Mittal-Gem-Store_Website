@@ -1,0 +1,406 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Barlow', sans-serif;
+}
+/* for all paragraph tags */
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    text-align: justify;
+}
+
+/* html,body{
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
+    header {
+    
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    }
+    
+
+    /* gemstone dropdown hover effect */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+    
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    header nav ul li {
+    margin: 0 1rem;
+    }
+    
+    header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+  
+    
+    h1, h2,h3,h4,h5 {
+    text-align: start;
+    margin-bottom: 1rem;
+    }
+    
+    main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+    }
+    
+    #gemstone-buying-guide {
+    margin-bottom: 2rem;
+    
+    }
+  
+    
+    /* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    } */
+    
+    li {
+    margin-bottom: 0.5rem;
+    }
+    
+
+.gemstone-image{
+    width: 100%;
+    background-size:  cover;
+
+}
+
+
+/* footer */
+
+
+/* natural-synthetic box3 */
+.natural-synthetic{
+    display: flex;
+    height: 197px;
+    width: 1248px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.natural-content{
+    
+    height: 140.39px;
+    width: 624px;
+}
+/* @media (min-width: 768px)
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+} */
+
+/* @media (min-width: 768px){
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}} */
+
+.natural-img{
+    height:400px ;
+    width: 197;
+    margin-top: 20%;
+
+}
+
+/* grade box4 */
+.grade{
+    display: flex;
+    height: 212.39px;
+    width: 1248px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.grade-content{
+    height: 212.39px;
+    width: 624px;
+    
+}
+.grade-img{
+    height: 197px;
+    width: 624px;
+    
+}
+/* certification box5 */
+.certification{
+    display: flex;
+    height: 509px;
+    width: 1248px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.certification-content{
+    height: 252.39px;
+    width: 624px;
+}
+.certification-img{
+    height: 509px;
+    width: 624px;
+}
+
+/* carat box6 */
+.carat{
+    display: flex;
+    height: 480.76px;
+    width: 1248px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.carat-content{
+    height: 164.39px;
+    width: 624px;
+}
+.carat-img{
+    height: 480.76px;
+    width: 624px;
+}
+/* clarity box7 */
+.clarity{
+    display: flex;
+    height: 508.39px;
+    width:1248px ;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+
+.clarity-content{
+    margin-right: 10px;
+    height: 508.39px;
+    width: 624px;
+}
+
+/* footer */
+footer {
+    background-color: white;
+    color:black;
+    padding: 1rem;
+    justify-content: center;
+    text-align: left;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    a{
+        text-decoration: none;
+        color: #000000 ;
+    }
+    }
+    hr{
+        color: black;
+        height: 2px;
+
+    }
+
+
+/* .footer-copyright{
+    justify-content: center;
+    text-align: center;
+} */
+
+span{
+    font-size: 18px;
+   
+    color: #000000;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: #000000 ;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 2rem 0;
+  }
+  
+  .newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter-container p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .newsletter-container input {
+    width: 17rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-container button {
+    width: 17rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-links div {
+    flex-basis: calc(15% - 2rem);
+    margin: 1rem;
+  }
+  
+  .footer-links p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .legal-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .legal-links div {
+    margin: 0 1rem;
+  }
+  
+  .legal-links p a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .get-in-touch p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .get-in-touch a {
+    font-size: 1rem;
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+  }
+
+
+  /* whatsapp */
+  
+/* WhatsApp button style */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* WhatsApp button hover effect */
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}

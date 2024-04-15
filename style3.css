@@ -1,0 +1,349 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+  /* gemstone dropdown hover effect */
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+  
+
+  
+
+
+
+
+/* footer */
+
+footer {
+    background-color: white;
+    color:black;
+    padding: 1rem;
+    text-align: left;
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    a{
+        text-decoration: none;
+        color: #000000 ;
+    }
+    }
+    hr{
+        color: black;
+        height: 2px;
+  
+    }
+  
+  
+  /* .footer-copyright{
+    justify-content: center;
+    text-align: center;
+  } */
+  
+  span{
+    font-size: 18px;
+   
+    color: #000000;
+    font-weight: 400;
+  }
+  a{
+    text-decoration: none;
+    color: #000000 ;
+  }
+  /* a:hover{
+    text-decoration: underline;
+  } */
+  
+  
+  
+  div {
+    display: block;
+    unicode-bidi: isolate;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 2rem 0;
+    /* position: fixed; */
+        bottom: 0;
+       
+  }
+  
+  .newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter-container p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .newsletter-container input {
+    width: 17rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-container button {
+    width: 17rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-links div {
+    flex-basis: calc(15% - 2rem);
+    margin: 1rem;
+  }
+  
+  .footer-links p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .legal-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .legal-links div {
+    margin: 0 1rem;
+  }
+  
+  .legal-links p a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .get-in-touch p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .get-in-touch a {
+    font-size: 1rem;
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  
+  }
+
+
+  /* main */
+
+  /* .container {
+    margin-top:100px;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 50px;
+} */
+
+/* hero */
+
+
+.container{
+    margin-top: 100px;
+}
+
+
+
+/* Top side for categories */
+.categories {
+    
+    
+    background-color: #f0f0f0;  
+}
+.categories ul{
+    display: flex;
+    justify-content: space-evenly;
+   list-style: none;
+   
+}
+
+li:hover{
+  text-decoration: underline;
+
+}
+
+.categories a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* products */
+.products {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Grid layout for products */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 20px; /* Gap between products */
+    grid-auto-rows: 700px;
+}
+
+/* Individual product card */
+.product {
+    border: 1px solid #ddd; /* Gray border */
+    padding: 20px;
+}
+.product a{
+  text-decoration: none;
+}
+
+/* Product image */
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Product name */
+.product-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Product description */
+.product-description {
+    margin-top: 5px;
+    color: #666; /* Gray text */
+}
+
+/* Product price */
+.product-price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green; /* Green text for price */
+
+
+}
+
+
+.product-card {
+  perspective: 1000px;
+  position: relative;
+}
+
+.product-front,
+.product-back {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+}
+
+.product-back {
+  transform: rotateY(180deg);
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px; /* Adjust margin if needed */
+}
+
+.product-card.flip .product-front {
+  transform: rotateY(-180deg);
+}
+
+.product-card.flip .product-back {
+  transform: rotateY(0deg);
+}
+
+
+/* whatsapp */
+
+/* WhatsApp button style */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* WhatsApp button hover effect */
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+
